@@ -31,7 +31,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://imgur.com/ywt4bNf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-<p>In this project, we configured osTicket to manage support tickets efficiently by setting up roles, departments, teams, agents, users, service level agreements (SLAs), and help topics. These steps ensure that tickets are properly assigned, tracked, and resolved in an organized manner. The configuration process helps define permissions, structure the support system, and improve response times. First, we set up Roles to group permissions for agents. In the Admin Panel → Agents → Roles, we created a Supreme Admin role, granting full administrative control. Roles define what each agent can access and modify within osTicket, ensuring a structured and secure support system.
+<p>In this project, we configured osTicket to manage support tickets efficiently by setting up roles, departments, teams, agents, users, service level agreements (SLAs), and help topics. These steps ensure that tickets are properly assigned, tracked, and resolved in an organized manner. The configuration process helps define permissions, structure the support system, and improve response times. First, we set up Roles to group permissions for agents. In the admin panel to roles, we created a Supreme Admin role, granting full administrative control. Roles define what each agent can access and modify within osTicket, ensuring a structured and secure support system.
 
 </p>
 <br />
@@ -40,7 +40,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://imgur.com/2ZFabzV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-<p>Next, we configured Departments to organize ticket visibility. In Admin Panel → Agents → Departments, we created a SysAdmins department to handle IT-related issues. Departments help categorize support teams, such as Help Desk, SysAdmins, and Networking, ensuring tickets are routed to the right team members.
+<p>Next, we configured Departments to organize ticket visibility. In admin panel to select agents to departments, we created a SysAdmins department to handle IT related issues. Departments help categorize support teams, such as Help Desk, SysAdmins, and Networking, ensuring tickets are routed to the right team members.
 
 </p>
 <br />
@@ -49,7 +49,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://imgur.com/WhoHWW1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-<p>We then created Teams to pull agents from different departments into specialized groups. In Admin Panel → Agents → Teams, we added an Online Banking team, allowing agents from various departments to collaborate on specific issues. Teams are useful for cross-functional support cases that require expertise from multiple departments.
+<p>We then created Teams to pull agents from different departments into specialized groups. In teams, we added an Online Banking team, allowing agents from various departments to collaborate on specific issues. Teams are useful for cross-functional support cases that require expertise from multiple departments.
 
 </p>
 <br />
@@ -58,7 +58,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://imgur.com/JRi2AYV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-<p>To manage ticket creation, we adjusted user settings. In Admin Panel → Settings → User Settings, we enabled registration requirements, ensuring only registered users can create tickets. This prevents spam and unauthorized requests while maintaining a secure support environment. Next, we added Agents (support staff) and Users (customers). In Admin Panel → Agents → Add New, we created Jane (SysAdmins) and John (Support) as our agents.
+<p>To manage ticket creation, we adjusted user settings. In user settings, we enabled registration requirements, ensuring only registered users can create tickets. This prevents spam and unauthorized requests while maintaining a secure support environment. Next, we added Agents (support staff) and Users (customers). In agents we add new to create Jane (SysAdmins) and John (Support) as our agents.
 </p>
 <br />
 
@@ -66,7 +66,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://imgur.com/eADLHnl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-<p>In Agent Panel → Users → Add New, we added customers Karen so she could submit tickets. This step ensures that users can request help and agents can respond efficiently.
+<p>We also added customers like Karen so she could submit tickets. This step ensures that users can request help and agents can respond efficiently.
 
 </p>
 <br />
@@ -75,7 +75,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://imgur.com/RxA7GLV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-<p>Finally, we configured SLA (Service Level Agreements) and Help Topics to set ticket priorities and categories. In Admin Panel → Manage → SLA, we created three levels: Sev-A (1-hour response, 24/7), Sev-B (4-hour response, 24/7), and Sev-C (8-hour response, business hours only).
+<p>Finally, we configured SLA (Service Level Agreements) and help topics to set ticket priorities and categories. In SLA, we created three levels: Sev-A (1-hour response, 24/7), Sev-B (4-hour response, 24/7), and Sev-C (8-hour response, business hours only).
 
 </p>
 <br />
@@ -84,6 +84,6 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://imgur.com/iziVwOx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-<p>In Admin Panel → Manage → Help Topics, we set up ticket categories like Business Critical Outage, Personal Computer Issues, Equipment Request, Password Reset, and Other to help users categorize their requests. These settings ensure that tickets are prioritized correctly and assigned to the appropriate teams for resolution. 
+<p>In Help Topics, we set up ticket categories like Business Critical Outage, Personal Computer Issues, Equipment Request, Password Reset, and Other to help users categorize their requests. These settings ensure that tickets are prioritized correctly and assigned to the appropriate teams for resolution. 
 </p>
 <br />
