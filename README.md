@@ -61,7 +61,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <br />
 
 <p>
-<img src="https://imgur.com/eADLHnl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/nQheWzb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>On the customer side, we need to configure Users, who are the individuals submitting tickets for assistance when they encounter technical issues or require support. Users can be added in the Agent Panel under “Users”, where their information is recorded to facilitate streamlined communication and efficient ticket tracking. For instance, we can add Karen, a customer who frequently requires IT support for personal computer issues, and Ken, a corporate client with business-critical requests that may involve system outages, security concerns, or high-priority operational disruptions. Proper user management is crucial in ensuring that every customer interaction is logged, categorized, and tracked systematically, allowing agents to access user history, previous support requests, and any ongoing issues. Additionally, by maintaining an organized user database, agents can personalize their responses, provide faster resolutions, and escalate cases more effectively based on the user’s needs and priority level. Well-structured user management also enables reporting and analytics, allowing the organization to identify trends, recurring issues, and areas for service improvement, ultimately enhancing the overall customer experience and efficiency of the help desk system.
